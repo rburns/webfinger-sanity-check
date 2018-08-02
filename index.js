@@ -42,11 +42,6 @@ test('https://libranet.de/profile/alfred', 'friendica');
 test('hubzillaru@hub.libranet.de', 'hubzilla');
 test('https://hub.libranet.de/channel/hubzillaru', 'hubzilla');
 
-// fail: doubtful that webfinger is implemented
-// test('socialcoop-london-area@gettogether.community', 'gettogether');
-// fail: doubtful that webfinger is implemented
-// test('https://gettogether.community/socialcoop-london-area/', 'gettogether');
-
 // fail: webfinger response has application/json content-type
 test('dlf@loma.ml', 'socialhome');
 // fail: doubtful that this is intended to work
@@ -56,6 +51,11 @@ test('dlf@loma.ml', 'socialhome');
 // test('public@distbin.com', 'distbin');
 // fail: doubtful that webfinger is implemented
 // test('https://distbin.com/public', 'distbin');
+
+// fail: doubtful that webfinger is implemented
+// test('socialcoop-london-area@gettogether.community', 'gettogether');
+// fail: doubtful that webfinger is implemented
+// test('https://gettogether.community/socialcoop-london-area/', 'gettogether');
 
 function test(addr, note) {
     webfinger(addr, (err, result) => {
