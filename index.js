@@ -27,9 +27,9 @@ test('https://baptiste.gelez.xyz/@/fluffy', 'plume');
 function test(addr, note) {
     webfinger(addr, (err, result) => {
         if( err ) {
-            console.log("* err * webfinger", note, addr)
+            console.log('\x1b[31m\u2718\x1b[0m', note, addr)
         } else {
-            console.log('        webfinger', note, addr, 'success')
+            console.log('\x1b[32m\u2714\x1b[0m', note, addr)
         }
     });
 }
