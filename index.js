@@ -21,6 +21,9 @@ test('https://peertube.video/accounts/veer66', 'peertube');
 test('dansup@pixelfed.social', 'pixelfed');
 test('https://pixelfed.social/dansup', 'pixelfed');
 
+test('fluffy@baptiste.gelez.xyz', 'plume');
+test('https://baptiste.gelez.xyz/@/fluffy', 'plume');
+
 function test(addr, note) {
     webfinger(addr, (err, result) => {
         if( err ) {
