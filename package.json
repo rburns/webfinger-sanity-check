@@ -1,0 +1,9 @@
+{
+  "name": "webfinger-sanity-check",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "webfinger": "git://github.com/rburns/webfinger.git#master"
+  }
+}
