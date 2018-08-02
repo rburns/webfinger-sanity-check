@@ -24,9 +24,9 @@ test('https://pixelfed.social/dansup', 'pixelfed');
 function test(addr, note) {
     webfinger(addr, (err, result) => {
         if( err ) {
-            console.log("\nwebfinger", note, addr, "err\n")
+            console.log("* err * webfinger", note, addr)
         } else {
-            console.log('webfinger', note, addr, 'success')
+            console.log('        webfinger', note, addr, 'success')
         }
     });
 }
