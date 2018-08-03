@@ -15,34 +15,30 @@ test('https://deadsuperhero.com/channel/dsh', 'diaspora');
 test('lnxw48a1@nu.federati.net', 'gnusocial');
 test('https://nu.federati.net/lnxw48a1', 'gnusocial');
 
-// fail: webfinger response has application/json content-type
-test('veer66@peertube.video', 'peertube');
-// fail: not intended to work
-// test('https://peertube.video/accounts/veer66', 'peertube');
-
-// fail: webfinger response has application/json content-type
 test('dansup@pixelfed.social', 'pixelfed');
-// fail: webfinger response has application/json content-type
 test('https://pixelfed.social/dansup', 'pixelfed');
 
-test('fluffy@baptiste.gelez.xyz', 'plume');
-// fail: not intended to work
-// test('https://baptiste.gelez.xyz/@/fluffy', 'plume');
-
-// fail: webfinger response has application/json content-type
 test('aqz@misskey.xyz', 'misskey');
-// fail: webfinger response has application/json content-type
 test('https://misskey.xyz/@/aqz', 'misskey');
 
-// fail: webfinger response has application/json content-type
 test('alfred@libranet.de', 'friendica');
-// fail: webfinger response has application/json content-type
 test('https://libranet.de/profile/alfred', 'friendica');
 
 test('hubzillaru@hub.libranet.de', 'hubzilla');
 test('https://hub.libranet.de/channel/hubzillaru', 'hubzilla');
 
-// fail: webfinger response has application/json content-type
+test('t@a4.io', 'microblog.pub');
+// fail: not intended to work
+//test('https://a4.io/', 'microblog.pub');
+
+test('fluffy@baptiste.gelez.xyz', 'plume');
+// fail: not intended to work
+// test('https://baptiste.gelez.xyz/@/fluffy', 'plume');
+
+test('veer66@peertube.video', 'peertube');
+// fail: not intended to work
+// test('https://peertube.video/accounts/veer66', 'peertube');
+
 test('dlf@loma.ml', 'socialhome');
 // fail: doubtful that this is intended to work
 // test('https://socialhome.network/p/373ebf56165ac9f9244c1c6766434442', 'socialhome');
