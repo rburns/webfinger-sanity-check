@@ -4,6 +4,6 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "webfinger": "git://github.com/rburns/webfinger.git#master"
+    "webfinger": "git://github.com/rburns/webfinger.git"
   }
 }

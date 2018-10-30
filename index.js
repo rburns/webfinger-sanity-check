@@ -29,7 +29,7 @@ test('https://hub.libranet.de/channel/hubzillaru', 'hubzilla');
 
 test('t@a4.io', 'microblog.pub');
 // fail: not intended to work
-//test('https://a4.io/', 'microblog.pub');
+// test('https://a4.io/', 'microblog.pub');
 
 test('fluffy@baptiste.gelez.xyz', 'plume');
 // fail: not intended to work
